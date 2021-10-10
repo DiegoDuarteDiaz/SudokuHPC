@@ -90,7 +90,7 @@ public class SudokuRepresentation
      * Get the Spaces from the Matrix
      * @return
      */
-    public Space[][] GetCells()
+    public Space[][] GetSpaces()
     {
         return this._spaces;
     }
