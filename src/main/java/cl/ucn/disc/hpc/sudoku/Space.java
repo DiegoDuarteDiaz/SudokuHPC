@@ -27,6 +27,17 @@ public class Space
     }
 
     /**
+     * The constructor in case that the Space have a default space
+     */
+    public Space(int value)
+    {
+        this._valuesToPut = new ArrayList<>();
+        this._defaultSpace = true;
+        this._lock = true;
+        AddValue(value);
+    }
+
+    /**
      * Add a possible value in the Space.
      * @param value the value.
      */
